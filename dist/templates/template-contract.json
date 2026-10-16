@@ -1,0 +1,1014 @@
+{
+  "version": 1,
+  "templateFile": "设备档案导入JLTY0714.xls",
+  "workbookXml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:dbsheet=\"http://web.wps.cn/et/2021/dbsheet\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"x15\" xmlns:x15=\"http://schemas.microsoft.com/office/spreadsheetml/2010/11/main\"><fileVersion appName=\"xl\" lastEdited=\"3\" lowestEdited=\"5\" rupBuild=\"9302\"/><workbookPr codeName=\"ThisWorkbook\"/><mc:AlternateContent xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"><mc:Choice Requires=\"x15\"><x15ac:absPath url=\"C:\\Users\\段\\Desktop\\Work\\03设备导入模板\\\" xmlns:x15ac=\"http://schemas.microsoft.com/office/spreadsheetml/2010/11/ac\"/></mc:Choice></mc:AlternateContent><bookViews><workbookView windowWidth=\"11950\" windowHeight=\"12000\" activeTab=\"8\"/></bookViews><sheets><sheet name=\"设备档案\" sheetId=\"1\" r:id=\"rId1\"/><sheet name=\"hidden@BaseSet_eamState\" sheetId=\"2\" state=\"hidden\" r:id=\"rId2\"/><sheet name=\"hidden@BaseSet_fundAbc\" sheetId=\"3\" state=\"hidden\" r:id=\"rId3\"/><sheet name=\"hidden@BaseSet_equipmentMajor\" sheetId=\"4\" state=\"hidden\" r:id=\"rId4\"/><sheet name=\"hidden@BaseSet_specialType\" sheetId=\"5\" state=\"hidden\" r:id=\"rId5\"/><sheet name=\"hidden@BaseSet_meaClass\" sheetId=\"6\" state=\"hidden\" r:id=\"rId6\"/><sheet name=\"hidden@BaseSet_eamPurpose\" sheetId=\"7\" state=\"hidden\" r:id=\"rId7\"/><sheet name=\"hidden@BaseSet_precision\" sheetId=\"8\" state=\"hidden\" r:id=\"rId8\"/><sheet name=\"技术参数\" sheetId=\"15\" r:id=\"rId9\"/><sheet name=\"附属设备\" sheetId=\"9\" r:id=\"rId10\"/><sheet name=\"专项定检业务\" sheetId=\"10\" r:id=\"rId11\"/><sheet name=\"hidden@BaseSet_wayType\" sheetId=\"11\" state=\"hidden\" r:id=\"rId12\"/><sheet name=\"hidden@BaseSet_meatype\" sheetId=\"12\" state=\"hidden\" r:id=\"rId13\"/><sheet name=\"hidden@BaseSet_sideType\" sheetId=\"13\" state=\"hidden\" r:id=\"rId14\"/><sheet name=\"hidden@BaseSet_checkPeriodUnit\" sheetId=\"14\" state=\"hidden\" r:id=\"rId15\"/><sheet name=\"hidden@EAM_paramType\" sheetId=\"16\" state=\"hidden\" r:id=\"rId16\"/><sheet name=\"计量器具\" sheetId=\"17\" r:id=\"rId17\"/><sheet name=\"维保业务\" sheetId=\"18\" r:id=\"rId18\"/><sheet name=\"hidden@_maintenanceBusinessType\" sheetId=\"19\" state=\"hidden\" r:id=\"rId19\"/><sheet name=\"hidden@EAM_periodType\" sheetId=\"20\" state=\"hidden\" r:id=\"rId20\"/><sheet name=\"hidden@EAM_periodUnit\" sheetId=\"21\" state=\"hidden\" r:id=\"rId21\"/><sheet name=\"hidden@urningGearIdentification\" sheetId=\"22\" state=\"hidden\" r:id=\"rId22\"/><sheet name=\"hidden@EAM_busiProperty\" sheetId=\"23\" state=\"hidden\" r:id=\"rId23\"/><sheet name=\"备件清单\" sheetId=\"24\" r:id=\"rId24\"/></sheets><definedNames><definedName name=\"_xlnm._FilterDatabase\" localSheetId=\"0\" hidden=\"1\">设备档案!$A$1:$AV$1</definedName><definedName name=\"_xlnm._FilterDatabase\" localSheetId=\"8\" hidden=\"1\">技术参数!#REF!</definedName></definedNames><calcPr calcId=\"191029\"/><extLst><ext uri=\"{B58B0392-4F1F-4190-BB64-5DF3571DCE5F}\" xmlns:xcalcf=\"http://schemas.microsoft.com/office/spreadsheetml/2018/calcfeatures\"><xcalcf:calcFeatures><xcalcf:feature name=\"microsoft.com:RD\"/><xcalcf:feature name=\"microsoft.com:Single\"/><xcalcf:feature name=\"microsoft.com:FV\"/><xcalcf:feature name=\"microsoft.com:CNMTM\"/><xcalcf:feature name=\"microsoft.com:LET_WF\"/><xcalcf:feature name=\"microsoft.com:LAMBDA_WF\"/><xcalcf:feature name=\"microsoft.com:ARRAYTEXT_WF\"/></xcalcf:calcFeatures></ext></extLst></workbook>",
+  "sheets": [
+    {
+      "name": "设备档案",
+      "state": "visible",
+      "path": "xl/worksheets/sheet1.xml",
+      "headerXml": "<row r=\"1\" s=\"30\" customFormat=\"1\" ht=\"20\" customHeight=\"1\" spans=\"1:45\"><c r=\"A1\" s=\"30\" t=\"s\"><v>0</v></c><c r=\"B1\" s=\"30\" t=\"s\"><v>1</v></c><c r=\"C1\" s=\"30\" t=\"s\"><v>2</v></c><c r=\"D1\" s=\"30\" t=\"s\"><v>3</v></c><c r=\"E1\" s=\"30\" t=\"s\"><v>4</v></c><c r=\"F1\" s=\"30\" t=\"s\"><v>5</v></c><c r=\"G1\" s=\"30\" t=\"s\"><v>6</v></c><c r=\"H1\" s=\"30\" t=\"s\"><v>7</v></c><c r=\"I1\" s=\"30\" t=\"s\"><v>8</v></c><c r=\"J1\" s=\"30\" t=\"s\"><v>9</v></c><c r=\"K1\" s=\"30\" t=\"s\"><v>10</v></c><c r=\"L1\" s=\"30\" t=\"s\"><v>11</v></c><c r=\"M1\" s=\"30\" t=\"s\"><v>12</v></c><c r=\"N1\" s=\"30\" t=\"s\"><v>13</v></c><c r=\"O1\" s=\"30\" t=\"s\"><v>14</v></c><c r=\"P1\" s=\"30\" t=\"s\"><v>15</v></c><c r=\"Q1\" s=\"30\" t=\"s\"><v>16</v></c><c r=\"R1\" s=\"30\" t=\"s\"><v>17</v></c><c r=\"S1\" s=\"30\" t=\"s\"><v>18</v></c><c r=\"T1\" s=\"30\" t=\"s\"><v>19</v></c><c r=\"U1\" s=\"30\" t=\"s\"><v>20</v></c><c r=\"V1\" s=\"31\" t=\"s\"><v>21</v></c><c r=\"W1\" s=\"30\" t=\"s\"><v>22</v></c><c r=\"X1\" s=\"31\" t=\"s\"><v>23</v></c><c r=\"Y1\" s=\"30\" t=\"s\"><v>24</v></c><c r=\"Z1\" s=\"31\" t=\"s\"><v>25</v></c><c r=\"AA1\" s=\"30\" t=\"s\"><v>26</v></c><c r=\"AB1\" s=\"30\" t=\"s\"><v>27</v></c><c r=\"AC1\" s=\"30\" t=\"s\"><v>28</v></c><c r=\"AD1\" s=\"30\" t=\"s\"><v>29</v></c><c r=\"AE1\" s=\"30\" t=\"s\"><v>30</v></c><c r=\"AF1\" s=\"30\" t=\"s\"><v>31</v></c><c r=\"AG1\" s=\"30\" t=\"s\"><v>32</v></c><c r=\"AH1\" s=\"30\" t=\"s\"><v>33</v></c><c r=\"AI1\" s=\"30\" t=\"s\"><v>34</v></c><c r=\"AJ1\" s=\"30\" t=\"s\"><v>35</v></c><c r=\"AK1\" s=\"30\" t=\"s\"><v>36</v></c><c r=\"AL1\" s=\"30\" t=\"s\"><v>37</v></c><c r=\"AM1\" s=\"30\" t=\"s\"><v>38</v></c><c r=\"AN1\" s=\"30\" t=\"s\"><v>39</v></c><c r=\"AO1\" s=\"30\" t=\"s\"><v>40</v></c><c r=\"AP1\" s=\"30\" t=\"s\"><v>41</v></c><c r=\"AQ1\" s=\"30\" t=\"s\"><v>42</v></c><c r=\"AR1\" s=\"30\" t=\"s\"><v>43</v></c><c r=\"AS1\" s=\"30\" t=\"s\"><v>44</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "设备编码",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "设备名称",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "设备位号",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "设备小类编码",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "设备小类名称",
+          "formula": null
+        },
+        {
+          "column": "F",
+          "field": "规格型号",
+          "formula": null
+        },
+        {
+          "column": "G",
+          "field": "设备状态",
+          "formula": null
+        },
+        {
+          "column": "H",
+          "field": "区域位置.区域编码",
+          "formula": null
+        },
+        {
+          "column": "I",
+          "field": "区域位置.区域名称",
+          "formula": null
+        },
+        {
+          "column": "J",
+          "field": "责任人.人员编码",
+          "formula": null
+        },
+        {
+          "column": "K",
+          "field": "责任人.员工姓名",
+          "formula": null
+        },
+        {
+          "column": "L",
+          "field": "使用部门.部门编码",
+          "formula": null
+        },
+        {
+          "column": "M",
+          "field": "使用部门.部门名称",
+          "formula": null
+        },
+        {
+          "column": "N",
+          "field": "详细位置",
+          "formula": null
+        },
+        {
+          "column": "O",
+          "field": "资产ABC",
+          "formula": null
+        },
+        {
+          "column": "P",
+          "field": "固定资产编号",
+          "formula": null
+        },
+        {
+          "column": "Q",
+          "field": "安装单位",
+          "formula": null
+        },
+        {
+          "column": "R",
+          "field": "设计单位",
+          "formula": null
+        },
+        {
+          "column": "S",
+          "field": "制造厂",
+          "formula": null
+        },
+        {
+          "column": "T",
+          "field": "供应商",
+          "formula": null
+        },
+        {
+          "column": "U",
+          "field": "出厂编号",
+          "formula": null
+        },
+        {
+          "column": "V",
+          "field": "出厂日期",
+          "formula": null
+        },
+        {
+          "column": "W",
+          "field": "使用年限",
+          "formula": null
+        },
+        {
+          "column": "X",
+          "field": "启用日期",
+          "formula": null
+        },
+        {
+          "column": "Y",
+          "field": "专业",
+          "formula": null
+        },
+        {
+          "column": "Z",
+          "field": "设备制造日期",
+          "formula": null
+        },
+        {
+          "column": "AA",
+          "field": "主设备编码.设备编码",
+          "formula": null
+        },
+        {
+          "column": "AB",
+          "field": "主设备编码.设备名称",
+          "formula": null
+        },
+        {
+          "column": "AC",
+          "field": "仪表位号",
+          "formula": null
+        },
+        {
+          "column": "AD",
+          "field": "特种设备",
+          "formula": null
+        },
+        {
+          "column": "AE",
+          "field": "特种设备类型",
+          "formula": null
+        },
+        {
+          "column": "AF",
+          "field": "注册代码",
+          "formula": null
+        },
+        {
+          "column": "AG",
+          "field": "测量设备",
+          "formula": null
+        },
+        {
+          "column": "AH",
+          "field": "备注",
+          "formula": null
+        },
+        {
+          "column": "AI",
+          "field": "分度值",
+          "formula": null
+        },
+        {
+          "column": "AJ",
+          "field": "检定证书号",
+          "formula": null
+        },
+        {
+          "column": "AK",
+          "field": "类别",
+          "formula": null
+        },
+        {
+          "column": "AL",
+          "field": "设备用途",
+          "formula": null
+        },
+        {
+          "column": "AM",
+          "field": "标准器具",
+          "formula": null
+        },
+        {
+          "column": "AN",
+          "field": "拥有者.人员编码",
+          "formula": null
+        },
+        {
+          "column": "AO",
+          "field": "拥有者.员工姓名",
+          "formula": null
+        },
+        {
+          "column": "AP",
+          "field": "测量范围",
+          "formula": null
+        },
+        {
+          "column": "AQ",
+          "field": "分类标准.编码",
+          "formula": null
+        },
+        {
+          "column": "AR",
+          "field": "分类标准.名称",
+          "formula": null
+        },
+        {
+          "column": "AS",
+          "field": "精度",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_eamState",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet2.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>50</v></c><c r=\"B1\" t=\"s\"><v>110</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "在用",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "inUse",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_fundAbc",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet3.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>119</v></c><c r=\"B1\" t=\"s\"><v>120</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "A",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "a",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_equipmentMajor",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet4.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>125</v></c><c r=\"B1\" t=\"s\"><v>126</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "动设备",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "motive",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_specialType",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet5.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>134</v></c><c r=\"B1\" t=\"s\"><v>135</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "锅炉",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "boiler",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_meaClass",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet6.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>149</v></c><c r=\"B1\" t=\"s\"><v>150</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "力学",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "dynamics",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_eamPurpose",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet7.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>157</v></c><c r=\"B1\" t=\"s\"><v>158</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "生产计算",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "produce",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_precision",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet8.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>119</v></c><c r=\"B1\" t=\"s\"><v>119</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "A",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "A",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "技术参数",
+      "state": "visible",
+      "path": "xl/worksheets/sheet9.xml",
+      "headerXml": "<row r=\"1\" s=\"5\" customFormat=\"1\" ht=\"15\" customHeight=\"1\" spans=\"1:8\"><c r=\"A1\" s=\"9\" t=\"s\"><v>177</v></c><c r=\"B1\" s=\"9\" t=\"s\"><v>178</v></c><c r=\"C1\" s=\"9\" t=\"s\"><v>179</v></c><c r=\"D1\" s=\"9\" t=\"s\"><v>180</v></c><c r=\"E1\" s=\"9\" t=\"s\"><v>181</v></c><c r=\"F1\" s=\"9\" t=\"s\"><v>182</v></c><c r=\"G1\" s=\"9\" t=\"s\"><v>183</v></c><c r=\"H1\" s=\"10\"/></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "参数类型",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "参数",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "值范围",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "单位",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "设备档案.设备编码",
+          "formula": null
+        },
+        {
+          "column": "F",
+          "field": "设备档案.设备名称",
+          "formula": null
+        },
+        {
+          "column": "G",
+          "field": "ID",
+          "formula": null
+        },
+        {
+          "column": "H",
+          "field": "",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "附属设备",
+      "state": "visible",
+      "path": "xl/worksheets/sheet10.xml",
+      "headerXml": "<row r=\"1\" ht=\"15\" spans=\"1:15\"><c r=\"A1\" s=\"3\" t=\"s\"><v>0</v></c><c r=\"B1\" s=\"3\" t=\"s\"><v>2</v></c><c r=\"C1\" s=\"3\" t=\"s\"><v>1</v></c><c r=\"D1\" s=\"3\" t=\"s\"><v>5</v></c><c r=\"E1\" s=\"3\" t=\"s\"><v>6</v></c><c r=\"F1\" s=\"3\" t=\"s\"><v>212</v></c><c r=\"G1\" s=\"3\" t=\"s\"><v>213</v></c><c r=\"H1\" s=\"3\" t=\"s\"><v>214</v></c><c r=\"I1\" s=\"3\" t=\"s\"><v>18</v></c><c r=\"J1\" s=\"3\" t=\"s\"><v>20</v></c><c r=\"K1\" s=\"3\" t=\"s\"><v>21</v></c><c r=\"L1\" s=\"3\" t=\"s\"><v>33</v></c><c r=\"M1\" s=\"3\" t=\"s\"><v>181</v></c><c r=\"N1\" s=\"3\" t=\"s\"><v>182</v></c><c r=\"O1\" s=\"3\" t=\"s\"><v>183</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "设备编码",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "设备位号",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "设备名称",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "规格型号",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "设备状态",
+          "formula": null
+        },
+        {
+          "column": "F",
+          "field": "设备类型.设备类型编码",
+          "formula": null
+        },
+        {
+          "column": "G",
+          "field": "设备类型.设备类型名称",
+          "formula": null
+        },
+        {
+          "column": "H",
+          "field": "数量",
+          "formula": null
+        },
+        {
+          "column": "I",
+          "field": "制造厂",
+          "formula": null
+        },
+        {
+          "column": "J",
+          "field": "出厂编号",
+          "formula": null
+        },
+        {
+          "column": "K",
+          "field": "出厂日期",
+          "formula": null
+        },
+        {
+          "column": "L",
+          "field": "备注",
+          "formula": null
+        },
+        {
+          "column": "M",
+          "field": "设备档案.设备编码",
+          "formula": null
+        },
+        {
+          "column": "N",
+          "field": "设备档案.设备名称",
+          "formula": null
+        },
+        {
+          "column": "O",
+          "field": "ID",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "专项定检业务",
+      "state": "visible",
+      "path": "xl/worksheets/sheet11.xml",
+      "headerXml": "<row r=\"1\" ht=\"15\" spans=\"1:14\"><c r=\"A1\" s=\"3\" t=\"s\"><v>215</v></c><c r=\"B1\" s=\"3\" t=\"s\"><v>216</v></c><c r=\"C1\" s=\"3\" t=\"s\"><v>217</v></c><c r=\"D1\" s=\"3\" t=\"s\"><v>218</v></c><c r=\"E1\" s=\"3\" t=\"s\"><v>219</v></c><c r=\"F1\" s=\"3\" t=\"s\"><v>220</v></c><c r=\"G1\" s=\"3\" t=\"s\"><v>221</v></c><c r=\"H1\" s=\"3\" t=\"s\"><v>222</v></c><c r=\"I1\" s=\"3\" t=\"s\"><v>223</v></c><c r=\"J1\" s=\"3\" t=\"s\"><v>224</v></c><c r=\"K1\" s=\"3\" t=\"s\"><v>33</v></c><c r=\"L1\" s=\"3\" t=\"s\"><v>181</v></c><c r=\"M1\" s=\"3\" t=\"s\"><v>182</v></c><c r=\"N1\" s=\"3\" t=\"s\"><v>183</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "检查方式",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "检定类型",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "内外检",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "周期",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "检查周期单位",
+          "formula": null
+        },
+        {
+          "column": "F",
+          "field": "要求",
+          "formula": null
+        },
+        {
+          "column": "G",
+          "field": "上次执行日期",
+          "formula": null
+        },
+        {
+          "column": "H",
+          "field": "有效期",
+          "formula": null
+        },
+        {
+          "column": "I",
+          "field": "提前期",
+          "formula": null
+        },
+        {
+          "column": "J",
+          "field": "上次执行结论",
+          "formula": null
+        },
+        {
+          "column": "K",
+          "field": "备注",
+          "formula": null
+        },
+        {
+          "column": "L",
+          "field": "设备档案.设备编码",
+          "formula": null
+        },
+        {
+          "column": "M",
+          "field": "设备档案.设备名称",
+          "formula": null
+        },
+        {
+          "column": "N",
+          "field": "ID",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_wayType",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet12.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>225</v></c><c r=\"B1\" t=\"s\"><v>226</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "现场检",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "scene",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_meatype",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet13.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>231</v></c><c r=\"B1\" t=\"s\"><v>232</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "检查",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "check",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_sideType",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet14.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>239</v></c><c r=\"B1\" t=\"s\"><v>240</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "内检",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "internal",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@BaseSet_checkPeriodUnit",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet15.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>243</v></c><c r=\"B1\" t=\"s\"><v>244</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "年",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "year",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@EAM_paramType",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet16.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>249</v></c><c r=\"B1\" t=\"s\"><v>250</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "配套电机",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "02",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "计量器具",
+      "state": "visible",
+      "path": "xl/worksheets/sheet17.xml",
+      "headerXml": "<row r=\"1\" ht=\"15\" spans=\"1:5\"><c r=\"A1\" s=\"3\" t=\"s\"><v>252</v></c><c r=\"B1\" s=\"3\" t=\"s\"><v>253</v></c><c r=\"C1\" s=\"3\" t=\"s\"><v>254</v></c><c r=\"D1\" s=\"3\" t=\"s\"><v>255</v></c><c r=\"E1\" s=\"3\" t=\"s\"><v>183</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "关联设备档案.设备编码",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "关联设备档案.设备名称",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "计量器具.设备编码",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "计量器具.设备名称",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "ID",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "维保业务",
+      "state": "visible",
+      "path": "xl/worksheets/sheet18.xml",
+      "headerXml": "<row r=\"1\" ht=\"15\" spans=\"1:31\"><c r=\"A1\" s=\"3\" t=\"s\"><v>181</v></c><c r=\"B1\" s=\"3\" t=\"s\"><v>182</v></c><c r=\"C1\" s=\"3\" t=\"s\"><v>256</v></c><c r=\"D1\" s=\"3\" t=\"s\"><v>257</v></c><c r=\"E1\" s=\"3\" t=\"s\"><v>258</v></c><c r=\"F1\" s=\"3\" t=\"s\"><v>259</v></c><c r=\"G1\" s=\"3\" t=\"s\"><v>220</v></c><c r=\"H1\" s=\"3\" t=\"s\"><v>260</v></c><c r=\"I1\" s=\"3\" t=\"s\"><v>218</v></c><c r=\"J1\" s=\"3\" t=\"s\"><v>261</v></c><c r=\"K1\" s=\"3\" t=\"s\"><v>221</v></c><c r=\"L1\" s=\"3\" t=\"s\"><v>262</v></c><c r=\"M1\" s=\"3\" t=\"s\"><v>263</v></c><c r=\"N1\" s=\"3\" t=\"s\"><v>264</v></c><c r=\"O1\" s=\"3\" t=\"s\"><v>265</v></c><c r=\"P1\" s=\"3\" t=\"s\"><v>266</v></c><c r=\"Q1\" s=\"3\" t=\"s\"><v>267</v></c><c r=\"R1\" s=\"3\" t=\"s\"><v>268</v></c><c r=\"S1\" s=\"3\" t=\"s\"><v>269</v></c><c r=\"T1\" s=\"3\" t=\"s\"><v>270</v></c><c r=\"U1\" s=\"3\" t=\"s\"><v>271</v></c><c r=\"V1\" s=\"3\" t=\"s\"><v>272</v></c><c r=\"W1\" s=\"3\" t=\"s\"><v>273</v></c><c r=\"X1\" s=\"3\" t=\"s\"><v>274</v></c><c r=\"Y1\" s=\"3\" t=\"s\"><v>275</v></c><c r=\"Z1\" s=\"3\" t=\"s\"><v>276</v></c><c r=\"AA1\" s=\"3\" t=\"s\"><v>277</v></c><c r=\"AB1\" s=\"3\" t=\"s\"><v>278</v></c><c r=\"AC1\" s=\"3\" t=\"s\"><v>279</v></c><c r=\"AD1\" s=\"3\" t=\"s\"><v>280</v></c><c r=\"AE1\" s=\"3\" t=\"s\"><v>183</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "设备档案.设备编码",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "设备档案.设备名称",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "附属设备.ID",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "设备部位",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "维保类型",
+          "formula": null
+        },
+        {
+          "column": "F",
+          "field": "内容",
+          "formula": null
+        },
+        {
+          "column": "G",
+          "field": "要求",
+          "formula": null
+        },
+        {
+          "column": "H",
+          "field": "周期类型",
+          "formula": null
+        },
+        {
+          "column": "I",
+          "field": "周期",
+          "formula": null
+        },
+        {
+          "column": "J",
+          "field": "周期单位",
+          "formula": null
+        },
+        {
+          "column": "K",
+          "field": "上次执行日期",
+          "formula": null
+        },
+        {
+          "column": "L",
+          "field": "下次执行日期",
+          "formula": null
+        },
+        {
+          "column": "M",
+          "field": "提前期(天)",
+          "formula": null
+        },
+        {
+          "column": "N",
+          "field": "上次执行时长(H)",
+          "formula": null
+        },
+        {
+          "column": "O",
+          "field": "下次执行时长(H)",
+          "formula": null
+        },
+        {
+          "column": "P",
+          "field": "提前时长(H)",
+          "formula": null
+        },
+        {
+          "column": "Q",
+          "field": "盘车标识",
+          "formula": null
+        },
+        {
+          "column": "R",
+          "field": "物料编码",
+          "formula": null
+        },
+        {
+          "column": "S",
+          "field": "物料名称",
+          "formula": null
+        },
+        {
+          "column": "T",
+          "field": "计划量",
+          "formula": null
+        },
+        {
+          "column": "U",
+          "field": "加/换油",
+          "formula": null
+        },
+        {
+          "column": "V",
+          "field": "任务清单.工序编码",
+          "formula": null
+        },
+        {
+          "column": "W",
+          "field": "执行人.人员编码",
+          "formula": null
+        },
+        {
+          "column": "X",
+          "field": "执行人.员工姓名",
+          "formula": null
+        },
+        {
+          "column": "Y",
+          "field": "执行部门.部门编码",
+          "formula": null
+        },
+        {
+          "column": "Z",
+          "field": "执行部门.部门名称",
+          "formula": null
+        },
+        {
+          "column": "AA",
+          "field": "执行岗位.岗位编码",
+          "formula": null
+        },
+        {
+          "column": "AB",
+          "field": "执行岗位.岗位名称",
+          "formula": null
+        },
+        {
+          "column": "AC",
+          "field": "执行单位",
+          "formula": null
+        },
+        {
+          "column": "AD",
+          "field": "业务性质",
+          "formula": null
+        },
+        {
+          "column": "AE",
+          "field": "ID",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@_maintenanceBusinessType",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet19.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>281</v></c><c r=\"B1\" t=\"s\"><v>282</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "维保",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "maintenance",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@EAM_periodType",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet20.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>311</v></c><c r=\"B1\" t=\"s\"><v>312</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "运行时长",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "duration",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@EAM_periodUnit",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet21.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>317</v></c><c r=\"B1\" t=\"s\"><v>318</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "小时",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "hour",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@urningGearIdentification",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet22.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>319</v></c><c r=\"B1\" t=\"s\"><v>320</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "红",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "red",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "hidden@EAM_busiProperty",
+      "state": "hidden",
+      "path": "xl/worksheets/sheet23.xml",
+      "headerXml": "<row r=\"1\" spans=\"1:2\"><c r=\"A1\" t=\"s\"><v>231</v></c><c r=\"B1\" t=\"s\"><v>323</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "检查",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "baseCheck",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "name": "备件清单",
+      "state": "visible",
+      "path": "xl/worksheets/sheet24.xml",
+      "headerXml": "<row r=\"1\" ht=\"15\" spans=\"1:11\"><c r=\"A1\" s=\"3\" t=\"s\"><v>256</v></c><c r=\"B1\" s=\"3\" t=\"s\"><v>257</v></c><c r=\"C1\" s=\"3\" t=\"s\"><v>326</v></c><c r=\"D1\" s=\"3\" t=\"s\"><v>327</v></c><c r=\"E1\" s=\"3\" t=\"s\"><v>328</v></c><c r=\"F1\" s=\"3\" t=\"s\"><v>329</v></c><c r=\"G1\" s=\"3\" t=\"s\"><v>330</v></c><c r=\"H1\" s=\"3\" t=\"s\"><v>214</v></c><c r=\"I1\" s=\"3\" t=\"s\"><v>181</v></c><c r=\"J1\" s=\"3\" t=\"s\"><v>182</v></c><c r=\"K1\" s=\"3\" t=\"s\"><v>183</v></c></row>",
+      "headers": [
+        {
+          "column": "A",
+          "field": "附属设备.ID",
+          "formula": null
+        },
+        {
+          "column": "B",
+          "field": "设备部位",
+          "formula": null
+        },
+        {
+          "column": "C",
+          "field": "备件物品.物料编码",
+          "formula": null
+        },
+        {
+          "column": "D",
+          "field": "备件物品.物料名称",
+          "formula": null
+        },
+        {
+          "column": "E",
+          "field": "备件物品.型号",
+          "formula": null
+        },
+        {
+          "column": "F",
+          "field": "备件物品.规格",
+          "formula": null
+        },
+        {
+          "column": "G",
+          "field": "现存量",
+          "formula": null
+        },
+        {
+          "column": "H",
+          "field": "数量",
+          "formula": null
+        },
+        {
+          "column": "I",
+          "field": "设备档案.设备编码",
+          "formula": null
+        },
+        {
+          "column": "J",
+          "field": "设备档案.设备名称",
+          "formula": null
+        },
+        {
+          "column": "K",
+          "field": "ID",
+          "formula": null
+        }
+      ]
+    }
+  ]
+}

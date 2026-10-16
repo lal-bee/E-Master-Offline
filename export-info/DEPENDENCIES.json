@@ -1,0 +1,27 @@
+{
+  "kind": "export_inventory_only",
+  "note": "现有应用没有 package.json 或锁文件；此文件是导出时新增的依赖清单，不参与运行。",
+  "build_step": null,
+  "runtime_dependencies": [
+    {
+      "name": "JSZip",
+      "version": "3.10.1",
+      "path": "dist/vendor/jszip.min.js",
+      "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+      "delivery": "随项目提供的本地浏览器脚本，无需CDN",
+      "license_notice": "原文件头声明 MIT 或 GPLv3 双许可；保留原文件中的版权及许可说明。",
+      "bundled_dependencies": "pako 等传递依赖已包含在此现有 bundle 中；项目未单独记录其完整版本清单。"
+    }
+  ],
+  "browser_apis": [
+    "File/ArrayBuffer",
+    "DOMParser",
+    "fetch (同源静态模板)",
+    "Blob/ObjectURL",
+    "localStorage",
+    "Intl.DateTimeFormat"
+  ],
+  "application_server": null,
+  "optional_local_host": "Python 3 标准库 http.server，或其他提供 dist 目录的静态HTTP服务器",
+  "optional_tests": "带有 node:test 模块的 Node.js；现有 tests/date-validation.cjs 不需要安装 npm 包"
+}
